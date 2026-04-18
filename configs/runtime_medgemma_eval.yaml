@@ -1,0 +1,23 @@
+data:
+  manifest_path: data/processed/medframeqa_manifest.jsonl
+  split_ids_path: data/processed/medframeqa_split_ids.json
+
+task_backend:
+  type: hf_medgemma
+  family: medgemma
+  model_name: google/medgemma-4b-it
+  trust_remote_code: true
+  local_files_only: false
+  max_frames: 5
+  temperature: 0.0
+  max_tokens: 512
+  dtype: auto
+  device_map: auto
+  adapter_mode: base
+  adapter_path: null
+
+evaluation:
+  max_examples: 256
+  coverage: 0.8
+  objective:
+    mode: accuracy_first

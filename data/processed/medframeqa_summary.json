@@ -1,0 +1,10 @@
+{
+  "num_records": 2851,
+  "snapshot_root": "/nfs/roberts/scratch/pi_xl693/xl693/evolve/data/raw/medframeqa_snapshot",
+  "extraction_stats": {
+    "written": 0,
+    "skipped": 0
+  },
+  "manifest_path": "/nfs/roberts/scratch/pi_xl693/xl693/evolve/data/processed/medframeqa_manifest.jsonl",
+  "split_path": "/nfs/roberts/scratch/pi_xl693/xl693/evolve/data/processed/medframeqa_split_ids.json"
+}

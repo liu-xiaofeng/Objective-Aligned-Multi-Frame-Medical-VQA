@@ -1,0 +1,11 @@
+datasets>=2.19.0
+huggingface_hub>=0.24.0
+openai>=1.35.0
+Pillow>=10.0.0
+pyarrow>=16.0.0
+PyYAML>=6.0.1
+scikit-learn>=1.4.0
+torch>=2.2.0
+transformers>=4.45.0
+peft>=0.12.0
+accelerate>=0.33.0
