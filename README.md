@@ -1,6 +1,6 @@
-# ShinkaMed VQA Public-Only
 
-This is a compact public-only export of the ShinkaMed VQA codebase. It keeps only the runnable Python path for MedFrameQA data preparation, direct-answer LoRA training, evaluation, and post-hoc calibration.
+
+It keeps only the runnable Python path for MedFrameQA data preparation, direct-answer LoRA training, evaluation, and post-hoc calibration.
 
 ## What is included
 
